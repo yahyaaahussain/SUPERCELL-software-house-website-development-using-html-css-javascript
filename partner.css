@@ -1,0 +1,26 @@
+/* Styling for the partner images */
+.partner-img {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: adds rounded corners to the images */
+    margin-bottom: 10px; /* Space between image and name */
+}
+
+/* Styling for the partner list */
+.partners ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Distribute partners evenly */
+    flex-wrap: wrap; /* Allow wrapping if the page is small */
+}
+
+.partners li {
+    text-align: center; /* Center the partner name */
+    margin: 10px; /* Add space between list items */
+}
+
+.partners li p {
+    font-weight: bold; /* Make partner names bold */
+    margin-top: 5px; /* Space between image and name */
+}

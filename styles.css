@@ -1,0 +1,254 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ECF0F1; /* Light Gray */
+    color: #34495E; /* Dark Gray */
+}
+
+header {
+    background: #2C3E50; /* Dark Slate Blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #E67E22; /* Orange color on hover */
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.btn {
+    background: #E67E22; /* Orange */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #D35400; /* Darker orange on hover */
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff; /* White */
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2C3E50; /* Dark Slate Blue */
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.feature h3 {
+    margin: 10px 0;
+    color: #34495E; /* Dark Gray */
+}
+
+.feature p {
+    line-height: 1.5;
+}
+
+/* Services Page Styles */
+.services {
+    padding: 40px 20px;
+    background-color: #ECF0F1; /* Light Gray */
+    text-align: center;
+}
+
+.service-item {
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff; /* White */
+}
+
+.service-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* About Us Page Styles */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about img {
+    width: 80%;
+    border-radius: 8px;
+    margin: 20px 
+    0;
+}
+
+/* Contact Us Page Styles */
+.contact {
+    padding: 40px 20px;
+    background-color: #ECF0F1; /* Light Gray */
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin: 10px 0 5px;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact button {
+    align-self: center;
+    background: #2C3E50; /* Dark Slate Blue */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact button:hover {
+    background: #2980B9; /* Bright Blue */
+}
+
+/* Support Page Styles */
+.support {
+    padding: 40px 20px;
+    background-color: #ECF0F1; /* Light Gray */
+    text-align: center;
+}
+
+.support h2 {
+    color: #2C3E50; /* Dark Slate Blue */
+}
+
+/* Partners Page Styles */
+.partners {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.partner-logos img {
+    width: 150px;
+    margin: 10px;
+}
+
+/* News Page Styles */
+.news {
+    padding: 40px 20px;
+    background-color: #ECF0F1; /* Light Gray */
+}
+
+.news article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff; /* White */
+}
+
+/* Events Page Styles */
+.events {
+    padding: 40px 20px;
+    background-color: #ECF0F1; /* Light Gray */
+}
+
+.event {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff; /* White */
+}
+
+/* Footer Styles */
+footer {
+    background: #2C3E50; /* Dark Slate Blue */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.features
+{
+    display: flex;
+}
+.images
+{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 30rem; */
+}
